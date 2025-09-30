@@ -45,6 +45,14 @@ footer {
   
 }
 
+nav {
+  height: 35px;
+}
 
+main {
+  font-weight: bold;
+  background-image: url("background.webp");
+  background-repeat: repeat-x;
+}
 
 
