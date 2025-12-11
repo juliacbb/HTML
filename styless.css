@@ -1,0 +1,99 @@
+body{
+    background-color: #05164cd8;  
+    color:white; 
+}
+
+
+header{
+    background-color: #1b2a59;
+    text-align:center;
+    font-size:80px;
+    font-weight: bold;
+    font-family:"Lato";
+    
+}
+
+/* Navigation */  
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1567d23f;
+  float:left; 
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family:"Special Gothic";
+  font-size: 18px;
+  
+}
+ul li a:hover {
+  background-color: #500404;
+}
+
+/* BODY */
+
+.text-box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.text-box h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #9bb8ff;
+}
+
+.text-box p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.img-container img {
+    width: 60%;              /* smaller image size */
+    max-width: 350px;        /* prevents them from ever getting too big */
+    height: auto;
+    border-radius: 14px;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow: 0 0 12px rgba(0,0,0,0.4);
+    display: block;
+}
+
+.img-container img:hover {
+    transform: scale(1.05);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px 50px;
+    margin: 60px auto;
+    background-color: rgba(10, 20, 50, 0.65);
+    width: 75%;
+    border-radius: 20px;
+    border-left: 6px solid #4da6ff;
+    border-right: 6px solid #4da6ff;
+    box-shadow: 0 0 20px rgba(0,0,0,0.45);
+}
+
+/* ---- FOOTER ---- */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1b2a59;
+    color: #ffffff;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
